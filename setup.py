@@ -5,16 +5,16 @@ with open("README.md", "r", encoding="utf-8") as description:
 
 setuptools.setup(
     name="kibana-api",
-    version="0.0.4",
-    author="Mauricio Matias Conde",
-    author_email="mcm.crw@gmail.com",
+    version="0.0.5",
+    author="Eusebio Resende",
+    author_email="eresende@nuodb.com",
     description="This is an API mapping library for Kibana API to generate visualizations and dashboards automatically",
     long_description=long_description,
     long_description_content_type="text/markdown",
     license='MIT',
-    url="https://github.com/cr0wg4n/kibana-api",
+    url="https://github.com/eresende-nuodb/kibana-api",
     project_urls={
-        "Bug Tracker": "https://github.com/cr0wg4n/kibana-api/issues",
+        "Bug Tracker": "https://github.com/eresende-nuodb/kibana-api/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
